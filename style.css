@@ -4,7 +4,7 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(255 221 54);
+  background-color: #FEDE4D;
 }
 a {
   text-decoration: none;
@@ -85,10 +85,11 @@ ul {
   }
 }
 .landing-page header .links li {
-  margin-left: 30px;
-  color: #5d5d5d;
-  cursor: pointer;
-  transition: .3s;
+    margin-left: 30px;
+    color: #5d5d5d;
+    cursor: pointer;
+    transition: .3s;
+    font-family: "Montserrat-black";
 }
 @media (max-width: 767px) {
   .landing-page header .links li {
@@ -126,8 +127,8 @@ ul {
   }
 }
 .landing-page .content .info h1 {
-  color: #703800;
-  font-size: 5em;
+  color: #613516;
+  font-size: 63px;
   font-weight: 800;
   line-height: 1em;
   font-family: 'Poppins', sans-serif;
@@ -148,6 +149,8 @@ ul {
   cursor: pointer;
   color: rgb(255 221 54);
   background-color: #703800;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 .landing-page .content .image img {
   max-width: 100%;
@@ -199,5 +202,34 @@ ul {
   -webkit-animation: 0.5s draw linear forwards;
   animation: 0.5s draw linear forwards;
 }
+
+/* SECCTION */
+.about {
+  padding: 1em;
+  background-color: #ffdbef;
+  color: #000000;
+  text-align: center;
+  margin: -8px;
+}
+
+#slider {
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  text-align: left;
 
 /* End Landing Page */

@@ -4,7 +4,8 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #FEDE4D;
+  background-image : url('https://j.top4top.io/p_29636o8sy1.png');
+  height : 100vh;
 }
 a {
   text-decoration: none;
@@ -85,11 +86,11 @@ ul {
   }
 }
 .landing-page header .links li {
-    margin-left: 30px;
-    color: #5d5d5d;
-    cursor: pointer;
-    transition: .3s;
-    font-family: "Montserrat-black";
+  margin-left: 30px;
+  color: #674017;
+  cursor: pointer;
+  transition: .3s;
+  font-family: system-ui;
 }
 @media (max-width: 767px) {
   .landing-page header .links li {
@@ -169,20 +170,21 @@ ul {
 
 .shape {
   fill: transparent;
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
+  stroke-dasharray: 165 540;
+  stroke-dashoffset: -539;
   stroke-width: 8px;
-  stroke: #19f6e8;
+  stroke: #674017;
 }
 
 .text {
   color: #fff;
-  font-family: 'Roboto Condensed';
-  font-size: 22px;
-  letter-spacing: 8px;
+  font-family: 'Montserrat';
+  font-size: 21px;
+  letter-spacing: 1px;
   line-height: 32px;
   position: relative;
-  top: -48px;
+  top: -70px;
+  margin-left: 3px;
 }
 
 @keyframes draw {
